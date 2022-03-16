@@ -1,0 +1,219 @@
+.text{
+    text-align: center;
+    background: linear-gradient(to right,red,green,yellow);
+    font-size: xx-large; 
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.text2{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 50%;
+    background-color:aquamarine;
+}
+
+.container{
+    background-color: rgb(0, 255, 136);
+    border: 5px solid red;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1{
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color:rgb(74, 226, 247);
+    padding: 0%;
+    display: inline-block;
+}
+
+.c2{
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:rgb(74, 226, 247);
+    margin: 0%;
+    padding: 0%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.c3{
+    width: 400px;
+    border: 2px solid  green;
+    border-radius: 5px;
+    background-color:rgb(74, 226, 247);
+    margin: 0%;
+    padding: 0%;
+    margin-left: 30px;
+    display: inline-block;
+}
+.c4{
+    
+    width: 400px;
+    border: 2px solid  green;
+    border-radius: 5px;
+    background-color:rgb(74, 226, 247);
+    box-sizing: border-box;
+    padding: 5px;
+   
+    margin-left: 465px;
+    display: inline-block;
+}
+
+
+.sec{
+    display: grid;
+    text-align: center;
+    background:linear-gradient(to right,red,orange,yellow,orange,red);
+    height: 45px;
+    text-decoration: underline;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.container2{
+    display: grid;
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 30px;
+    grid-template-columns: auto auto auto auto;
+    background: radial-gradient(blue,rgb(39,158,204), rgb(22,233,22));
+}
+
+.text7{
+    width: 200px;
+    height: 150px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec1{
+    margin-top: -10px;
+}
+
+.text8{
+    width: 200px;
+    height: 150px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec2{
+    margin-top: -10px;
+}
+
+.text9{
+    width: 200px;
+    height: 150px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec3{
+    margin-top: -10px;
+}
+
+.text10{
+    color: red;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec4{
+    margin-top: -10px;
+}
+
+
+
+
+
+
+.parent{
+
+    width: 100%;
+    margin:  auto;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-rows:50px 60px 220px 25px  ;
+    
+    grid-template-columns:repeat(3,2fr)75px;
+    grid-gap: 10px;  
+    }
+    .box1{
+    
+        text-align: center;
+        background-color: red;
+        grid-column: 1/5;
+    }
+    .box2{
+        font-size: 20px;
+        text-align: center;
+        background-color:lime;
+        color: white;
+    }
+    .box3{
+        font-size: 20px;
+        /* text-align: center; */
+        background-color:rgb(60,60,221);
+        color: white;
+        /* background-color:orange; */
+    }
+    .box4{
+        font-size: 18px;
+        /* text-align: center; */
+        color: white;
+        background-color:blue;
+    }
+    .box5{
+    
+    
+        background-color:black;
+        grid-row: 2/4;
+        color: white;
+    grid-column: 4/5;
+    }
+    .box6{
+    
+        font-size: 22px;
+        background-color:orange;
+        grid-column: 1/4;
+        color: white;
+    }
+    .box7{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        /* background-color:gray; */
+        background-color: aqua;
+        grid-column: 1/5;
+    }
